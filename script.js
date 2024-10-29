@@ -5,5 +5,8 @@ let inputGenero = document.getElementById("cadGen");
 let inputEditora = document.getElementById("cadEditora");
 
 function add(){
-    
+    let livro = {
+        titulo:inputTitulo.value,
+     //comentario besta pra krlho kkkkkkkkkk   
+    }
 }
