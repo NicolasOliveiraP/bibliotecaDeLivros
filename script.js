@@ -7,6 +7,8 @@ let inputEditora = document.getElementById("cadEditora");
 function add(){
     let livro = {
         titulo:inputTitulo.value,
+        autor:inputAutor.value,
+        
      //comentario besta pra krlho kkkkkkkkkk   
     }
 }
