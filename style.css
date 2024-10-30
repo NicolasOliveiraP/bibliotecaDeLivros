@@ -1,15 +1,45 @@
-input{
-    width: 300px;
-    border-radius: 5px;
-}
-button{
-    border-radius: 30px;
-    background-color: white;
-    color: red;
-}
-.container{
+body {
+    background-color: rgb(97, 83, 83);
+    min-height: 100vh;
     display: flex;
     align-items: center;
     justify-content: center;
-    flex-direction:column
-} 
+    margin: 0;
+    font-family: Arial, sans-serif;
+}
+
+input {
+    width: 300px;
+    padding: 8px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+    margin-bottom: 10px;
+}
+
+button {
+    border-radius: 20px;
+    background-color: red;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    cursor: pointer;
+    font-weight: bold;
+    margin-top: 10px;
+}
+
+button:hover {
+    background-color: darkred;
+}
+
+.container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    background-color: rgb(111, 87, 218);
+    width: 850px;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    text-align: center;
+}
